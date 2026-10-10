@@ -1,0 +1,30 @@
+.container { max-width: 1000px; margin: 0 auto; padding: 20px 16px 60px; }
+.navbar { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; background: #111827; color: #fff; padding: 12px 20px; }
+.navbar .brand { font-weight: 700; }
+.navbar .links { display: flex; gap: 14px; flex: 1; }
+.navbar a { color: #9ca3af; text-decoration: none; }
+.navbar a.active { color: #fff; border-bottom: 2px solid #3b82f6; }
+.navbar .user { display: flex; align-items: center; gap: 12px; font-size: 14px; }
+.card { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 18px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.card h2 { margin-top: 0; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.auth-card { max-width: 380px; margin: 60px auto; }
+.auth-card form { display: flex; flex-direction: column; gap: 12px; }
+input, select { padding: 9px 10px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; }
+.qty { width: 70px; }
+.btn { padding: 9px 14px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; font-size: 14px; }
+.btn:disabled { opacity: .6; cursor: default; }
+.btn.ghost { background: transparent; border: 1px solid #4b5563; }
+.btn.buy { background: #16a34a; }
+.btn.sell { background: #dc2626; }
+.actions { display: flex; gap: 6px; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #e5e7eb; white-space: nowrap; }
+.num { text-align: right; }
+.pos { color: #16a34a; } .neg { color: #dc2626; }
+.error { color: #dc2626; } .success { color: #16a34a; } .muted { color: #6b7280; font-size: 14px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+.stat { display: flex; flex-direction: column; gap: 6px; margin-bottom: 0; }
+.stat span { color: #6b7280; font-size: 13px; } .stat b { font-size: 22px; }
+.stats { margin-bottom: 18px; }
