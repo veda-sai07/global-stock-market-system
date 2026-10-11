@@ -6,3 +6,5 @@ target/
 !.env.example
 .idea/
 *.log
+
+backend-phase1/
